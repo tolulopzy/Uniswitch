@@ -13,7 +13,7 @@
   <body>
     <main>
       <section class="bg-emerald-100">
-        <nav class="flex flex-row justify-between pt-5 px-10">
+        <nav class="flex flex-row justify-center pt-5 px-10">
           <ul class="flex flex-row gap-6">
             <li>
               <a href="#"> Home </a>
@@ -31,14 +31,18 @@
               <a href="#"> Contact </a>
             </li>
           </ul>
-          <div class="flex flex-row gap-4">
+          <!-- <div class="flex flex-row gap-4">
             <a href="#"> Log In </a>
             <a href="#">Sign Up</a>
-          </div>
+          </div> -->
         </nav>
-        <div class="flex flex-row px-10 items-center">
+        <div
+          class="flex flex-col lg:flex-row p-4 md:px-12 lg:px-20 /px-10 items-center"
+        >
           <div class="basis-2/4">
-            <h1 class="font-bold text-6xl pb-10 pt-10 leading-tight">
+            <h1
+              class="font-bold text-4xl lg:text-6xl pb-10 pt-10 leading-tight"
+            >
               Payments <br />
               Infrastructure for <br />
               Everyone
@@ -50,9 +54,6 @@
               providers and other financial market intermediaries enabling
               instant and secure payment between African countries.
             </p>
-            <button class="bg-black text-white rounded-3xl px-4 py-2">
-              Download App
-            </button>
           </div>
           <div class="basis-2/4">
             <img src="./assets/images/img-one.png" />
@@ -65,13 +66,22 @@
             How Does It Work?
           </h3>
         </div>
-        <div class="flex flex-row px-4 gap-10 justify-center">
-          <div class="flex flex-col">
-            <div>
-              <img src="./assets/images/Character-one.png" width="100" />
+        <div class="flex flex-col lg:flex-row px-4 gap-10 justify-center">
+          <div class="flex flex-col items-center lg:text-left">
+            <div class="h-full">
+              <img
+                class="h-fit"
+                src="./assets/images/Character-one.png"
+                width="100"
+                height="100"
+              />
             </div>
             <div>
-              <h4 class="font-semibold pb-8 pt-3 text-lg">Download App</h4>
+              <h4
+                class="font-semibold pb-8 pt-3 text-lg text-center lg:text-left"
+              >
+                Download App
+              </h4>
               <p class="text-center lg:text-left lg:text-base leading-loose">
                 Go to your APP Store or Play Store <br />
                 and search for Uniswitch and <br />
@@ -79,9 +89,14 @@
               </p>
             </div>
           </div>
-          <div class="flex flex-col">
-            <div>
-              <img src="./assets/images/character-two.png" width="100" />
+          <div class="flex flex-col items-center lg:text-left">
+            <div class="h-full">
+              <img
+                class="h-fit"
+                src="./assets/images/character-two.png"
+                width="100"
+                height="100"
+              />
             </div>
             <div>
               <h4 class="font-semibold pb-8 pt-3 text-lg">
@@ -94,9 +109,14 @@
               </p>
             </div>
           </div>
-          <div class="flex flex-col">
-            <div>
-              <img src="./assets/images/character-three.png" width="100" />
+          <div class="flex flex-col items-center lg:text-left">
+            <div class="h-full">
+              <img
+                class="h-fit"
+                src="./assets/images/character-three.png"
+                width="100"
+                height="100"
+              />
             </div>
             <div>
               <h4 class="font-semibold pb-8 pt-3 text-lg">Load Your Wallet</h4>
@@ -107,12 +127,19 @@
               </p>
             </div>
           </div>
-          <div class="flex flex-col">
-            <div>
-              <img src="./assets/images/character-four.png" width="100" />
+          <div class="flex flex-col items-center lg:text-left">
+            <div class="h-full">
+              <img
+                class="h-fit"
+                src="./assets/images/character-four.png"
+                width="100"
+                height="100"
+              />
             </div>
             <div>
-              <h4 class="font-semibold pb-8 pt-3 text-lg">Ready To Go</h4>
+              <h4 class="font-semibold pb-4 lg:pb-8 pt-3 text-lg">
+                Ready To Go
+              </h4>
               <p class="text-center lg:text-left lg:text-base leading-loose">
                 Go to your APP Store or Play Store <br />
                 and search for Uniswitch and <br />
@@ -121,8 +148,8 @@
             </div>
           </div>
         </div>
-        <div>
-          <h6 class="pt-28 flex justify-center">
+        <div class="px-4 lg:px-0">
+          <h6 class="pt-6 lg:pt-28 flex justify-center">
             AVAILABLE AT APP STORE AND GOOGLE PLAY STORE
           </h6>
           <h4 class="pt-2 flex justify-center font-semibold text-xl">
@@ -137,7 +164,7 @@
       <section class="bg-orange-100 px-10 rounded-lg">
         <div class="flex flex-col lg:flex-row items-center">
           <div class="basis-2/4">
-            <h5 class="pb-5 font-semibold text-xl">
+            <h5 class="pb-5 font-semibold text-xl pt-3 lg:pt-0">
               Accept all payments methods
             </h5>
             <p
@@ -149,7 +176,7 @@
               compliance, and adapt your payments stack to support your business
               strategy.
             </p>
-            <div>
+            <div class="pb-6 lg:pb-0 flex gap-4">
               <button class="bg-black text-white rounded-3xl px-4 py-2">
                 Download App
               </button>
@@ -171,13 +198,14 @@
       </section>
       <section class="bg-white pt-10 px-4">
         <div
-          class="bg-sky-100 rounded-lg flex flex-col lg:flex-row px-10 pt-10 items-center"
+          class="bg-sky-100 rounded-lg flex flex-col flex-col-reverse lg:flex-row px-10 pt-10 items-center"
         >
           <div class="basis-2/4">
             <img
               src="./assets/images/section-four.png"
               alt="phone"
               width="300"
+              class="pb-4 lg:pb-0 pt-4 lg:pt-0"
             />
           </div>
           <div class="basis-2/4">
@@ -188,7 +216,7 @@
               e-money, credit/debit cards, e-banking or cash payments at
               outlets.
             </p>
-            <div>
+            <div class="pb-4 lg:pb-0">
               <button class="bg-black text-white rounded-3xl px-4 py-2">
                 Download App
               </button>
@@ -331,7 +359,7 @@
             />
           </div>
         </div>
-        <div class="flex flex-row">
+        <div class="flex flex-col lg:flex-row">
           <div class="basis-2/4">
             <img src="./assets/images/sect-six.png" alt="contact" width="300" />
           </div>
@@ -381,7 +409,7 @@
                 ></textarea>
               </div>
             </form>
-            <div class="flex flex-row gap-4">
+            <div class="flex flex-col lg:flex-row gap-4">
               <input type="checkbox" />
               <p class="pt-3 text-yellow-700 pb-4">
                 I agree that Uniswitch may contact me at the email address or
@@ -407,32 +435,32 @@
         <div class="px-20">
           <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 pb-10 basis-2/4">
             <div class="rounded-md bg-white shadow py-12 px-6">
-              <img src="./assets/images/Logo.png" />
+              <img src="./assets/images/pfs.png" width="150" />
             </div>
             <div class="rounded-md bg-white shadow py-12 px-6">
-              <img src="./assets/images/Logo.png" />
+              <img src="./assets/images/vfd.png" width="150" />
             </div>
             <div class="rounded-md bg-white shadow py-12 px-6">
-              <img src="./assets/images/Logo.png" />
+              <img src="./assets/images/interswitch.png" width="150" />
             </div>
           </div>
         </div>
         <div class="px-20">
           <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 pb-10 basis-2/4">
             <div class="rounded-md bg-white shadow py-12 px-6">
-              <img src="./assets/images/Logo.png" />
+              <img src="./assets/images/digicore.png" width="150" />
             </div>
             <div class="rounded-md bg-white shadow py-12 px-6">
-              <img src="./assets/images/Logo.png" />
+              <img src="./assets/images/grupp.png" width="150" />
             </div>
             <div class="rounded-md bg-white shadow py-12 px-6">
-              <img src="./assets/images/Logo.png" />
+              <img src="./assets/images/vbank.png" width="150" />
             </div>
           </div>
         </div>
       </section>
     </main>
-    <section class="bg-white pt-10 px-4">
+    <!-- <section class="bg-white pt-10 px-4">
       <div
         class="bg-red-100 rounded-lg flex flex-row px-10 py-10 pt-10 justify-center"
       >
@@ -448,8 +476,8 @@
           <p>Founder, Underrated Studio</p>
         </div>
       </div>
-    </section>
-    <section class="pt-20">
+    </section> -->
+    <!-- <section class="pt-20">
       <h4 class="pb-10 text-center font-semibold text-xl">
         Frequently Asked Questions
       </h4>
@@ -515,15 +543,15 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <section class="bg-white pt-10 px-4 pb-28">
       <div class="bg-green-800 rounded-lg px-10 pt-10 pb-5">
-        <div class="flex flex-row justify-between">
-          <p class="text-white">
+        <div class="flex flex-col lg:flex-row justify-between">
+          <p class="text-white pb-3 lg:pb-0">
             Freakinshly simple. Downright <br />
             Useful. Ready to make the jump?
           </p>
-          <div>
+          <div class="flex flex-col lg:flex-row gap-2">
             <input
               type="email"
               placeholder="Enter your work email"
@@ -591,9 +619,17 @@
             target="_blank"
             rel="noopener noreferrer"
             class="text-base cursor-pointer hover:text-yellow-500"
-            href="#"
+            href="https://sarepay.com/"
           >
-            Features
+            Sarepay
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-base cursor-pointer hover:text-yellow-500"
+            href="https://collectam.com/"
+          >
+            CollectAm
           </a>
           <a
             target="_blank"
@@ -601,7 +637,7 @@
             class="text-base cursor-pointer hover:text-yellow-500"
             href="#"
           >
-            Security
+            Tanjalo
           </a>
           <a
             target="_blank"
@@ -609,7 +645,7 @@
             class="text-base cursor-pointer hover:text-yellow-500"
             href="#"
           >
-            Get App
+            Biller HQ
           </a>
         </div>
       </div>
